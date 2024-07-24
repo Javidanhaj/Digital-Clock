@@ -8,7 +8,7 @@ function clock_logic(){
     const clock = `${hours}:${minutes}:${seconds}`; 
 
     document.getElementById('clock').innerText = clock;
-
+    
 }
 
 clock_logic();
